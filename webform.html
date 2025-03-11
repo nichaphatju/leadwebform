@@ -14,47 +14,57 @@
 
 <br/>
 
-<div class="card">
-  <div class="card-body">
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DHs00000P4HDX" method="POST">
-      
-    <input type=hidden name="oid" value="00DHs00000P4HDX">
-    <input type=hidden name="retURL" value="http://">
-    
-    <!--  ----------------------------------------------------------------------  -->
-    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-    <!--  these lines if you wish to test in debug mode.                          -->
-    <input type="hidden" name="debug" value=1>
-    <input type="hidden" name="debugEmail" value="nichaphat.jumpachot@nri-anz.com">
-    <!--  ----------------------------------------------------------------------  -->
-      <div class="row mb-3">
-        <label for="first_name">First Name</label><input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-      </div>
-      <div class="row mb-3">
-        <label for="last_name">Last Name</label><input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-      </div>  
-      <div class="row mb-3">
-        <label for="email">Email</label><input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" /><br>
-      </div>
-      <div class="row mb-3">
-        <label for="company">Company</label><input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" /><br>
-      </div>
-      <div class="row mb-3">
-        <label for="state">Country</label>
-          <select class="form-select" name="Country__c" id="Country__c">
-            <option value="France">France</option>
-            <option value="South Africa">South Africa</option>
-            <option value="UAE">UAE</option>
-          </select>
-        <br>
-      </div>
-      <div class="row mb-3">
-        <label for="description">Message</label><textarea class="form-control" id="description" maxlength="500" name="description" rows="3" type="text" ></textarea><br>
-      </div>
-      <input class="btn btn-primary" type="submit" name="submit">
-    
-    
-    
-    </form>
-  </div>
+<div class="container">
+<div class="row justify-content-center">
+	<div class="card" style="width: 48rem;">
+	  <div class="card-body">
+		
+		<h5 class="card-title text-center">Sales Enquiries</h5>
+		
+		<div class="card-body">
+	  
+			<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DHs00000P4HDX" method="POST">
+			  
+			<input type=hidden name="oid" value="00DHs00000P4HDX">
+			<input type=hidden name="retURL" value="http://">
+			
+			<!--  ----------------------------------------------------------------------  -->
+			<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+			<!--  these lines if you wish to test in debug mode.                          -->
+			<input type="hidden" name="debug" value=1>
+			<input type="hidden" name="debugEmail" value="nichaphat.jumpachot@nri-anz.com">
+			<!--  ----------------------------------------------------------------------  -->
+			  <div class="row mb-3">
+				<label for="first_name">First Name</label><input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+			  </div>
+			  <div class="row mb-3">
+				<label for="last_name">Last Name</label><input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+			  </div>  
+			  <div class="row mb-3">
+				<label for="email">Email</label><input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" /><br>
+			  </div>
+			  <div class="row mb-3">
+				<label for="company">Company</label><input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" /><br>
+			  </div>
+			  <div class="row mb-3">
+				<label for="state">Country</label>
+				  <select class="form-select" name="Country__c" id="Country__c">
+					<option value="France">France</option>
+					<option value="South Africa">South Africa</option>
+					<option value="UAE">UAE</option>
+				  </select>
+				<br>
+			  </div>
+			  <div class="row mb-3">
+				<label for="description">Message</label><textarea class="form-control" id="description" maxlength="500" name="description" rows="3" type="text" ></textarea><br>
+			  </div>
+			  <input class="btn btn-primary" type="submit" name="submit">
+			
+			
+			
+			</form>
+			</div>
+	  </div>
+	</div>
+</div>
 </div>
